@@ -1,0 +1,83 @@
+/* ===== Navbar ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00c3ff;
+}
+
+
+/*div*/
+
+.container {
+    display: flex;          /* main part */
+    height: 35vh;
+  }
+  
+  .aaa {
+    width: 25%;
+  
+    padding: 20px;
+  }
+  
+  .bbb {
+    width: 25%;
+    
+    padding: 20px;
+  }
+  .ccc {
+    width: 20%;
+ 
+    padding: 20px;
+  }
+  .ddd {
+    width: 20%;
+ 
+    padding: 20px;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* pushes footer to bottom */
+  }
+  
+  .footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
